@@ -1,14 +1,23 @@
 .bg {
   z-index: -5;
   background-color: #f6eada !important ;
-  height: 280px;
-  min-height: 280px;
+  height: 400px;
 }
 
 .bg-kopi {
   position: absolute;
   wdith: 650px;
   height: 400px;
-  top: -70px;
-  left: -20px;
+  top: -52px;
+  left: 20px;
+  transform: rotate(-18deg);
+}
+
+.bg-rounded {
+  background-color: #f9d9aa;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 300px;
+  margin-top: -180px;
+  border-radius: 25px;
 }
