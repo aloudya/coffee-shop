@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hanado</title>
+  </head>
+  <body>
+    <!-- might delete here -->
+    <div class="container sticky-top">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container py-2">
+            <a class="navbar-brand" href="#">
+              <img
+                src="assets/Images/logo.png"
+                alt="Hanado"
+                style="height: 48px"
+              />
+            </a>
+
+            <!-- menu icon to responsive -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- tiga elemen yang ada di header——dibungkus di sini -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <!-- about us -->
+                <li class="nav-item">
+                  <a
+                    class="nav-link active fw-normal"
+                    aria-current="page"
+                    href="#"
+                    >About us</a
+                  >
+                </li>
+
+                <!-- products -->
+                <li class="nav-item">
+                  <a class="nav-link fw-normal" href="#">Products</a>
+                </li>
+
+                <!-- delivery -->
+                <li class="nav-item">
+                  <a class="nav-link fw-normal">Delivery</a>
+                </li>
+              </ul>
+
+              <!-- form search -->
+              <form
+                class="d-flex align-items-center position-relative"
+                role="search"
+              >
+                <input
+                  class="form-control me-2 rounded-pill ps-5 py-2"
+                  type="search"
+                  placeholder="Cappuccino"
+                  aria-label="Cappuccino"
+                />
+                <i class="ai-search fs-3 position-absolute start-0 ps-2"></i>
+
+                <!-- search button to submit -->
+                <i class="ai-cart fs-3"></i>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <div class="bg">
+      <!-- <img src="assets/Images/bg-hero-2.png" class="bg-kopi" alt="" /> -->
+
+      <div class="container" style="margin-top: 250px">
+        <h1 class="py-3 fs-2">
+          Popular <a class="link-underline-warning text-black">Now</a>
+        </h1>
+        <div class="row">
+          <div class="col-4">
+            <div class="p-2 rounded" style="background-color: #f9f3ea">
+              <div class="card px-4 py-2 border-0">
+                <img
+                  src="assets/Images/product-1.png"
+                  class="card-img-top mt-2"
+                  alt="Vanilla Latte"
+                />
+
+                <span class="badge badge-pill badge-success gap-2"
+                  ><strong>4.8</strong>
+                  <img src="assets/Icons/gold-star.svg" style="width: 20px" />
+                </span>
+
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h5>Vanilla Latte</h5>
+                    <h5 class="ml-auto">21 K</h5>
+                  </div>
+                  <div class="w-100 d-flex justify-content-between">
+                    <div>
+                      <button class="btn btn-outline-warning">Hot</button>
+                      <button class="btn btn-outline-warning mx-2">Cold</button>
+                    </div>
+                    <div class="bg-warning rounded-circle" style="width: 40px">
+                      <i class="ai-cart fs-4 text-light mx-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="p-2 rounded" style="background-color: #f9f3ea">
+              <div class="card px-4 py-2 border-0">
+                <img
+                  src="assets/Images/product-2.png"
+                  class="card-img-top mt-2"
+                  alt="Espresso"
+                />
+
+                <span class="badge badge-pill badge-success gap-2"
+                  ><strong>4.8</strong>
+                  <img src="assets/Icons/gold-star.svg" style="width: 20px" />
+                </span>
+
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h5>Espresso</h5>
+                    <h5 class="ml-auto">12 K</h5>
+                  </div>
+                  <div class="w-100 d-flex justify-content-between">
+                    <div>
+                      <button class="btn btn-outline-warning">Hot</button>
+                      <button class="btn btn-outline-warning mx-2">Cold</button>
+                    </div>
+                    <div class="bg-warning rounded-circle" style="width: 40px">
+                      <i class="ai-cart fs-4 text-light mx-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="p-2 rounded" style="background-color: #f9f3ea">
+              <div class="card px-4 py-2 border-0">
+                <img
+                  src="assets/Images/product-3.png"
+                  class="card-img-top mt-2"
+                  alt="Hazelnut Latte"
+                />
+
+                <span class="badge badge-pill badge-success gap-2"
+                  ><strong>4.8</strong>
+                  <img src="assets/Icons/gold-star.svg" style="width: 20px" />
+                </span>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h5>Hazelnut Latte</h5>
+                    <h5 class="ml-auto">23 K</h5>
+                  </div>
+                  <div class="w-100 d-flex justify-content-between">
+                    <div>
+                      <button class="btn btn-outline-warning">Hot</button>
+                      <button class="btn btn-outline-warning mx-2">Cold</button>
+                    </div>
+                    <div class="bg-warning rounded-circle" style="width: 40px">
+                      <i class="ai-cart fs-4 text-light mx-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-rounded"></div>
+
+      <div class="container" style="margin-top: 150px">
+        <h1 class="py-3 fs-2">
+          How to use delivery
+          <a class="link-underline-warning text-black">service</a>
+        </h1>
+
+        <div class="row text-center" style="margin-top: 50px">
+          <div class="col-4">
+            <img
+              src="assets/Images/service-1.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            <p class="fs-4 fw-bold">Choose your own coffee</p>
+            <p class="fw-normal">there are 20+ coffees for you</p>
+          </div>
+
+          <div class="col-4">
+            <img
+              src="assets/Images/service-2.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            <p class="fs-4 fw-bold">We delivery it to you</p>
+            <p class="fw-normal">Choose delivery service</p>
+          </div>
+
+          <div class="col-4">
+            <img
+              src="assets/Images/service-3.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            <p class="fs-4 fw-bold">Enjoy your coffee</p>
+            <p class="fw-normal">Choose delivery service</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+  </body>
+</html>
