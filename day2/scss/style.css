@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 80px;
+}
+.container .content-left {
+  width: 450px;
+}
+.container .content-left .title {
+  font-size: 48px;
+}
+.container .content-left .title span {
+  color: sandybrown;
+}
+.container .content-left p {
+  width: 400px;
+}
+.container .content-left .order-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 40px;
+}
+.container .content-left .order-button .icon {
+  background: sandybrown;
+  padding: 4px;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+}
+.container .content-right .hero-img-container {
+  background: brown;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content-right .hero-img-container img {
+  width: 300px;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */

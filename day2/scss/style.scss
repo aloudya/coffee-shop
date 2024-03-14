@@ -1,0 +1,61 @@
+$myColor: sandybrown;
+$secondColor: brown;
+$baseSize: 4px;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 80px;
+    
+    .content-left {
+        width: 450px;
+        
+        .title {
+            font-size: 48px;
+            
+            span {
+                color: $myColor;    
+            }
+        }
+        
+        p {
+            width: 400px;
+        }
+        
+        .order-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            gap: 8px;
+            padding: ($baseSize * 3) ($baseSize * 6);
+            border-radius: ($baseSize * 10);
+            
+            .icon {
+                background: $myColor;
+                padding: $baseSize;
+                border-radius: 100%;
+                width: 24px;
+                height: 24px;
+                
+            }
+        }
+    }
+    
+    .content-right {
+        .hero-img-container {
+            background: brown;
+            border-radius: 100%;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img {
+                width: 300px;
+                height: auto;
+            }
+        }
+    }
+}
